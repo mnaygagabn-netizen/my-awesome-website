@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تحميل فيديو من TikTok</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>تحميل فيديو TikTok</h1>
+
+  <input id="linkInput" type="text" placeholder="الصق رابط فيديو تيكتوك هنا">
+
+  <div class="options">
+    <label><input type="radio" name="type" value="full" checked> فيديو كامل</label>
+    <label><input type="radio" name="type" value="noaudio"> بدون صوت</label>
+    <label><input type="radio" name="type" value="audio"> صوت فقط</label>
+  </div>
+
+  <button id="downloadBtn">تحميل</button>
+
+  <div id="preview"></div>
+</div>
+
+
+
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  text-align: right;
+  background-color: #8b3970;
+  margin: 0;
+  padding: 20px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+</style>
+
+
+
+
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
